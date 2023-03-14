@@ -35,3 +35,8 @@ Building a platform that uses AI to recommend possible health problems and sugge
 <h2>The programing language we decide to work on is PYTHON</h2>
 
 Python: Python is a popular language for AI and machine learning projects, thanks to its robust libraries and frameworks, such as Scikit-Learn, TensorFlow, and Keras. Python is also widely used for web development, thanks to frameworks such as Django and Flask.
+
+<h1>we need to implement <b>blockchain</b> as it is necessary for the hackathon </h1>
+
+<p><b>Use blockchain for secure storage and sharing of health data:
+You can use a blockchain-based solution to store and manage patient health data securely. Patients would have control over their own data and could grant access to healthcare providers on a need-to-know basis. This can help improve privacy and security while reducing the risk of data breaches.</b></p>
