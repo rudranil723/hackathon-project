@@ -219,3 +219,82 @@ img{
 }
 
 /*main body of the page*/
+
+.bodyofthepage{  
+	background:url(images/photo.jpg);
+	background-size: cover;
+	height: 90vh;
+	margin-top: 1.2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+}
+
+.bg-text {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: var(--clr-secondary);
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	text-shadow: #6A5ACD 1px 2px 6px;
+}
+
+#mainboxpara{
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Roboto Slab', serif;
+}
+
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #9370DB, #6A5ACD);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40%;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(174, 31, 176, 0.434) 0 3px 8px;
+}
+
+
+/*responsive problems remain*/
+
+@media(min-width: 320px){
+	.bodyofthepage{
+		background-size: auto;
+	}
+	.button-42 {
+		width: 50%;
+		z-index: 9;
+	}
+}
